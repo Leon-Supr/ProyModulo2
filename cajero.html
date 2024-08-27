@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Saldo BBVA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/ZxkWMlaMeFNPsUjVU_I6VIBtUij2RTdFUI4dsPz4sgXHvvtaTu2Q86DhmCq4HVFfyHA=s256-rw" type="image/x-icon">
+
+</head>
+
+<body class="vw-100 vh-100 d-flex flex-column justify-content-center align-items-center">
+
+
+<div class="vw-50 vh-50 d-flex flex-column justify-content-center align-items-center">
+    <img id="logo-bbva" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BBVA_2019.svg/512px-BBVA_2019.svg.png"  alt="BBVA Bancomer">
+
+    <h1 class="d-flex justify-content-center" id="saldo">Obteniendo saldo...</h1>
+
+    <div class="input-group mb-3">
+        <button class="w-25 btn btn-success" type="button" id="btn-depositar">Depositar</button>
+        <input type="number" class="form-control" id="input-depositar">
+    </div>
+    <div class="input-group mb-3">
+        <button class="w-25 btn btn-danger" type="button" id="btn-retirar">Retirar</button>
+        <input type="number" class="form-control" id="input-retirar">
+    </div>
+    <button type="submit" class="btn btn-primary" id="btn-regresar">Regresar</button>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="cajero.js"></script>
+</body>
+
+</html>
